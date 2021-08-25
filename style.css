@@ -1,0 +1,113 @@
+:root{
+  font-family: 'Roboto Mono', monospace;
+  font-size: 14px;
+}
+body{
+  background-color: #0e1b30;
+}
+.nav-item-text{
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1.15rem;
+}
+.nav-link:hover{
+  color:#27ba95 !important; /*GET RID OF THIS !IMPORTANT*/
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(39, 186, 149, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.custom-toggler.navbar-toggler {
+  border-color: rgb(39, 186, 149);
+} 
+.text{
+  color: white;
+}
+.text-small{
+  font-family: 'Roboto Mono', monospace;
+  color: lightslategray;
+}
+h1{
+  font-family: 'Roboto Mono', monospace;
+  font-size: clamp(2.5rem, 4vw, 10rem); 
+  color: white;
+}
+h2{
+  font-family: 'Roboto Mono', monospace;
+  font-size: clamp(1rem, 4vw, 3rem); 
+  color: #5a6ea1;
+}
+h3{
+  font-family: 'Roboto Mono', monospace;
+  font-size: clamp(1rem, 4vw, 2rem); 
+  color: #5a6ea1;
+}
+.button{
+  border-radius: 5px;
+  color: #27ba95;
+  font-size: 14px;
+  font-weight: 500;
+  border: solid 1.5px #27ba95;
+  background: #0e1b30
+}
+.icon{
+  height: 50px;
+  width: 50px;
+}
+.card{
+  font-family: 'Roboto Mono', monospace;
+  background-color:#0e1b30;
+  border: solid 1px #27ba95;
+  color: #27ba95;
+}
+.card-text{
+  color: #5a6ea1;
+}
+.list-group-item{
+  background-color: #0e1b30;
+  color: lightslategray;
+}
+.card-img-top{
+  width: 100%;
+  height: 160px;
+}
+.card-link{
+  color: #27ba95;
+  text-decoration: none;
+}
+.card-link:hover{
+  color: #27ba95;
+}
+.button:hover{
+  transition: ease-in-out, 120ms;
+  transform: scale(1.15);
+}
+i:hover{
+  transition: ease-in-out, 120ms;
+  transform: scale(1.25);
+  color:#27ba95;
+}
+.nav-link:focus{
+  color:#27ba95;
+}
+body{
+  animation: ease-in 2s fadein;
+}
+@keyframes fadein {
+  from { opacity: 0}
+  to   { opacity: 1}
+}
+#slide-on-load{
+  animation: ease-in 2s slide-up;
+}
+/*Grid layout changes for md screens or larger. Animation must be faster*/
+@media(min-width: 768px){
+  animation: ease-in 0.5s slide-up;
+}
+@keyframes slide-up{
+  0%{
+    transform: translateY(100%);
+  }
+  100%{
+    transform: translateY(0%);
+  } 
+}
+
