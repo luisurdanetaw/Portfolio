@@ -46,7 +46,7 @@
           <section class="text-center text-md-start my-5 py-4 ms-md-5 ps-md-5 ">
             <h1>Hi, I'm Luis</h1>
             <h2>Software Developer</h2>
-            <p class="text-small">I am a computer science student based in Tampa, FL with experience in backend and frontend development.</p>
+            <p class="text-small">I am a fullstack software engineer based in Tampa, FL that enjoys building sleek user interfaces and robust backend systems.</p>
 
             <form action="mailto:luisurdaneta@usf.edu">
               <button type="submit"class="button px-5 py-2 mt-4">Contact Me</button>
@@ -65,11 +65,48 @@
 
       <div class="row">
         <div class="col-12 text-center text-md-start ps-md-5 ms-md-5 py-5 mt-5">
-          <h3>Check Out My Projects Below</h3>
+          <h3>Check Out Some of My Personal Projects Below</h3>
         </div>
       </div>
 
       <div class="row pt-4" id="projects">
+        <div class="col-12 col-md-4 mt-5 mb-md-5 d-flex justify-content-center">
+          <div class="card" style="width: 18rem;">
+            <img src="res/cache-project.PNG" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Cache Project</h5>
+              <p class="card-text"> Created a dictionary based cache using closures (functional programming) and an implementation of the second chance algorithm as a cache replacement policy with the objective of reducing backend response latency. </p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Python</li>
+              <li class="list-group-item">Asyncio (mutex locks)</li>
+            </ul>
+            <div class="card-body">
+              <a href="https://github.com/luisurdanetaw/ImgStorageBackend" class="card-link">View on Github</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4 mt-5 mb-md-5 d-flex justify-content-center">
+          <div class="card" style="width: 18rem;">
+            <img src="res/image.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">M.O.V.E</h5>
+              <p class="card-text">Platform for streamlined inventory and logistics management with data visualization features.
+              </p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">ReactJS</li>
+              <li class="list-group-item">FastAPI</li>
+              <li class="list-group-item">MySQL</li>
+              <li class="list-group-item">Google Cloud</li>
+            </ul>
+            <div class="card-body">
+              <a href="https://github.com/luisurdanetaw/usf-centcom-logistics-ui" class="card-link">View on Github</a>
+            </div>
+          </div>
+        </div>
+
         <div class="col-12 col-md-4 mt-5 mb-md-5 d-flex justify-content-center">
           <div class="card" style="width: 18rem;">
             <img src="res/cashify.PNG" class="card-img-top" alt="...">
@@ -84,7 +121,47 @@
               <li class="list-group-item">PostgreSQL</li>
             </ul>
             <div class="card-body">
+              <a href="https://github.com/luisurdanetaw/employer-student-networking-app" class="card-link">View on Github</a>
+            </div>
+          </div>
+        </div>
+      </div>
+       <div class="row pt-4" id="projects">
+        <div class="col-12 col-md-4 mt-5 mb-md-5 d-flex justify-content-center">
+          <div class="card" style="width: 18rem;">
+            <img src="res/classifier-project.PNG" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Comment Classifier</h5>
+              <p class="card-text"> Fine tuned a distilbert based model to determine which the subreddit a comment was posted in </p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Python</li>
+              <li class="list-group-item">Distilbert</li>
+              <li class="list-group-item">PyTorch</li>
+              <li class="list-group-item">Scikit-learn</li>
+            </ul>
+            <div class="card-body">
               <a href="https://github.com/luisurdanetaw/ImgStorageBackend" class="card-link">View on Github</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4 mt-5 mb-md-5 d-flex justify-content-center">
+          <div class="card" style="width: 18rem;">
+            <img src="res/image.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Prompt Engineering Techniques Comparison</h5>
+              <p class="card-text">Comparing correctness of Chain of Thought prompting against Tree of Thoughts prompting in a few shot classification task. Model is given examples similar to test case stored in a vector database (Pinecone)
+              </p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Open AI API</li>
+              <li class="list-group-item">Pinecone</li>
+              <li class="list-group-item">Python</li>
+              <li class="list-group-item">Prompt Engineering</li>
+            </ul>
+            <div class="card-body">
+              <a href="https://github.com/luisurdanetaw/centcom-logistics-ui" class="card-link">View on Github</a>
             </div>
           </div>
         </div>
@@ -105,26 +182,6 @@
             </ul>
             <div class="card-body">
               <a href="https://github.com/luisurdanetaw/LiveExchangeRates" class="card-link">View on Github</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-12 col-md-4 mt-5 mb-md-5 mb-5 d-flex justify-content-center">
-          <div class="card" style="width: 18rem;">
-            <img src="res/UIprojectPic.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Login and Registration UI</h5>
-              <p class="card-text">Responsive sign in/sign up form built with pure HTML, CSS and JS using mobile first approach. UI was wireframed and designed with Figma.
-              </p>
-            </div>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">HTML</li>
-              <li class="list-group-item">CSS</li>
-              <li class="list-group-item">Mobile-first Design</li>
-              <li class="list-group-item">Figma</li>
-            </ul>
-            <div class="card-body">
-              <a href="https://github.com/luisurdanetaw/UISampleProject" class="card-link">View on Github</a>
             </div>
           </div>
         </div>
